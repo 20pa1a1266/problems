@@ -1,0 +1,15 @@
+def lonelyinteger(a):
+    res=0
+    for elem in a:
+        res^=elem
+    return res
+if __name__ == '__main__':
+    
+
+    n = int(input().strip())
+
+    a = [int(a_temp) for a_temp in input().rstrip().split(' ')]
+
+    print(lonelyinteger(a))
+
+    
