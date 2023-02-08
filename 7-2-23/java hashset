@@ -1,0 +1,14 @@
+int count = 0;
+Set<String> a=new HashSet<>();
+for(int i=0;i<t;i++){
+    String h =pair_left[i]+","+pair_right[i];
+    if(!a.contains(h)){
+        a.add(h);
+        count=count+1;
+          System.out.println(count);
+    }
+    else{
+        System.out.println(count);
+    }
+}
+        
